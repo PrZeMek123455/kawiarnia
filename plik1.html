@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="plik1.css" >
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        </style>
+</head>
+<body>
+    <div class="pasek">
+        <div class="ikony">
+        <div class="ikonka_facebook"><a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></div></a>
+        <div class="ikonka_tweeter"><a href="https://twitter.com/?lang=pl" target="_blank"><ion-icon name="logo-twitter"></ion-icon></div></a>
+        <div class="ikonka_instagram"><a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></div></a> 
+    </div>
+        <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><ion-icon name="Home"></ion-icon></span>
+                    <span class="text">Start</span>
+                </a>
+            </li>
+        
+        
+            <li class="list">
+                <a href="plik3.html">
+                    <span class="icon"><ion-icon name="cafe-outline"></ion-icon></span>
+                    <span class="text">Oferta</span>
+                </a>
+            </li>
+        
+        
+            <li class="list">
+                <a href="plik7.html">
+                    <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                    <span class="text">Galeria</span>
+                </a>
+            </li>
+        
+        
+            <li class="list">
+                <a href="plik6.html">
+                    <span class="icon"><ion-icon name="albums-outline"></ion-icon></span>
+                    <span class="text">CV</span>
+                </a>
+            </li>
+        
+        
+            <li class="list">
+                <a href="plik2.html">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">Kontakt</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+    </script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</div>
+<header><div class="logo"></div></header>
+<div class="parallax parallax-1"></div>
+<div class="content">
+    <div class="lorem">O kawiarni </div><div class="lorem2">Nasza kawiarnia działa na rynku od 2016 roku do dzisiaj. <br>  Ciągle pracujemy nad zapewnieniem dla naszych gości coraz lepszych warunków, <br>tak aby z pełnym spokojem mogli się delektować naszymi produktami. </div>
+<br></div>
+    <div class="parallax parallax-1"></div>
+    <div class="center">
+        <div class="obrazki">
+            <div class="obrazek1"></div>
+            <div class="obrazek2"></div>
+            <div class="obrazek3"></div>
+        </div>
+        <div class="tekst_center">
+            <h1>Nasza kawiarnia</h1>
+            <br>
+            <h2 class="klasa2">Działamy na rynku już kilka lat</h2>
+            <br><br>
+            <h3>Naszym celem jest, aby przy każdym wyjściu klienta dało się zaobserwować uśmiechnietą twarz</h3>
+        </div>
+    </div>
+    
+<div class="formularz">
+    <div id="mail"><input type="email" placeholder="Podaj email"></div>
+    <div id="tresc"><textarea placeholder="Podaj treść" none></textarea></div>
+    <div id="send"><input type="button" value="wyslij wiadomosc"></div>
+</div>
+
+<div class="dol">
+<div class="down1">
+
+<div id="slider">
+    <figure>
+        <img src="https://clickitalia.pl/userdata/public/news/images/32.jpg">
+        <img src="https://www.oetker.pl/Recipe/Recipes/oetker.pl/pl-pl/baking/image-thumb__156585__RecipeDetailsLightBox/proste-ciasto-truskawkowo-smietankowe.jpg">
+        <img src="https://zielonytalerzyk.com/wp-content/uploads/2019/04/8napoje-alkohole-1024x683.jpg">
+        <img src="https://www.coffeedesk.pl/blog/wp-content/uploads/2020/12/dsc2116_50667669082_o-1920x1281.jpg">
+        <img src="https://www.artystycznenadodrze.pl/wp-content/uploads/2020/10/120570602_1218241261881327_3020365783105716425_o-570x350.jpg">
+    </figure>
+</div>
+
+
+<div id="zdj_slider"></div>
+
+</div>
+
+
+<div class="down2">
+    <div id="miniatura1">
+        <button>
+            <div class="button1">Pokaż więcej</div>
+        </button>
+
+    <div id="note1">
+        <div class="opinie">
+            <div id="opinia1">
+                <div id="zdj_tlo"></div>
+                <h2>Mariusz</h2>
+                <p class="kolor_notki">"Ogromna różnorodność świetnej kawy. Ale największą robotę czyni Obsługa! Jesteście świetni i bądźcie dalej! Wypieki wyborne i bardzo smaczne - często nietuzinkowe. Świetne miejsce!"</p>
+                
+                <div id="ikony"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+            </div>
+    </div>
+
+</div>
+
+
+    </div>
+    <div id="miniatura2">
+        <button>
+            <div class="button2">Pokaż więcej</div>
+        </button>
+
+        <div id="note2">
+            <div class="opinie">
+        <div id="opinia2">
+            <div id="zdj_tlo2"></div>
+            <h2>Wiktoria</h2>
+            <p class="kolor_notki">"Jedna z lepszych kawiarni, jaką miałem okazję odwiedzić. Wystrój nowoczesny i schludny. Zaletą jest też sklep z akcesoriami do kawy oraz samą kawą speciality. Polecam to miejsce!"</p>
+            
+            <div id="ikony"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div id="miniatura3">
+        <button>
+            <div class="button3">Pokaż więcej</div>
+        </button>
+        <div id="note3">
+            <div class="opinie">
+            <div id="opinia3">
+                <div id="zdj_tlo3"></div>
+                <h2>Krystian</h2>
+                <p class="kolor_notki">"Jedna z lepszych kawiarni, jaką miałem okazję odwiedzić. Wystrój nowoczesny i schludny. Zaletą jest też sklep z akcesoriami do kawy oraz samą kawą speciality. Polecam to miejsce!"</p>
+                
+                <div id="ikony"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <ul class="pasek_boczny">
+        <a class="dekoracja" href="plik1.html" target="_blank"> <li class="opcje" style="--i:5;">Start</li></a>
+        <a class="dekoracja" href="plik3.html"> <li class="opcje" style="--i:4;">Oferta</li></a>
+        <a class="dekoracja" href="plik7.html"> <li class="opcje" style="--i:3;">Opinie</li></a>
+        <a class="dekoracja" href="plik6.html"> <li class="opcje" style="--i:2;">CV</li></a>
+        <a class="dekoracja" href="plik2.html"> <li class="opcje" style="--i:1;">Kontakt</li></a>
+    </ul>
+</div>
+
+
+
+<footer>
+<div class="foot">
+    <a class="kolor" href="plik1.html"><div class="foot1">Start</div></a>
+    <a class="kolor" href="plik3.html"><div class="foot2">Oferta</div></a>
+    <a class="kolor" href="plik7.html"><div class="foot3">Opinie</div></a>
+    <a class="kolor" href="plik6.html"><div class="foot4">CV</div></a>
+    <a class="kolor" href="plik2.html"><div class="foot5">Kontakt</div></a>
+
+</div> 
+
+<br><br><br>
+
+<p>Wszelkie prawa zastrzeżone &#9426 2023 Nasza kawiarnia, Przemysław Górszczak</p>
+</footer>
+
+</body>
+</html>

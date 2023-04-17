@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="plik7.css">
+</head>
+<body>
+    <div class="gora">
+        <div class="pasek">
+            <div class="ikony">
+            <div class="ikonka_facebook"><a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></div></a>
+            <div class="ikonka_tweeter"><a href="https://twitter.com/?lang=pl" target="_blank"><ion-icon name="logo-twitter"></ion-icon></div></a>
+            <div class="ikonka_instagram"><a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></div></a> 
+        </div>
+            <div class="navigation">
+            <ul>
+                <li class="list">
+                    <a href="plik1.html">
+                        <span class="icon"><ion-icon name="Home"></ion-icon></span>
+                        <span class="text">Start</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list ">
+                    <a href="plik3.html">
+                        <span class="icon"><ion-icon name="cafe-outline"></ion-icon></span>
+                        <span class="text">Oferta</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                        <span class="text">Galeria</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list">
+                    <a href="plik6.html">
+                        <span class="icon"><ion-icon name="albums-outline"></ion-icon></span>
+                        <span class="text">CV</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list">
+                    <a href="plik2.html">
+                        <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                        <span class="text">Kontakt</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+            item.addEventListener('click',activeLink));
+        </script>
+    
+        </div>
+
+    <div class="container">
+        <div class="top">
+            <ul>
+                  <li><a href="#img_1"><img src="https://gratka.pl/blog/wp-content/uploads/2019/09/iStock-1130595856-1.jpg"></a></li>
+                  <li><a href="#img_2"><img src="https://ncez.pzh.gov.pl/wp-content/uploads/2021/01/kawa-serce_auto_600x600.jpg"></a></li>
+                  <li><a href="#img_3"><img src="https://gorzow.news/wp-content/uploads/2022/05/2021-09-25-Fit-Cake-13-scaled-1.jpg"></a></li>
+                  <li><a href="#img_4"><img src="https://milkdesigns.pl/assets/images/sztolnia-meta.jpg"></a></li>
+                  <li><a href="#img_5"><img src="https://lente-magazyn.com/wp-content/uploads/2016/03/mae.jpg"></a></li>
+                  <li><a href="#img_6"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8xjBBQKrVzFjn0khTYzyYi4oPxGdhy2GuDsxqtvT-EL5OysydJ9fDu0-yJo2PfzhgO39_d68TiesZ9pMk0T7ZRuS5uwd2gGxBrKkVtnLWUmZS8UEBP9UJ3cCLZcAQOZbYRnF6D-sjAhKdWjfNNav4iPEYDtydwnX8xnOEj2ynzitM6tfHLVQret8GQ/s1920/tyler-nix-ygb2igkldyg-unsplash.jpg"></a></li>
+                  <li><a href="#img_7"><img src="https://polskapogodzinach.pl/wp-content/uploads/2017/09/xkrakow-gdzie-na-kawe-meho-cafe-1024x576.jpg.pagespeed.ic.7kGIa30S_A.jpg"></a></li>
+                  <li><a href="#img_9"><img src="https://cafe22.pl/wp-content/uploads/2022/03/Cafe-22-kawiarnia-Szczecin-4.jpg"></a></li>
+                  <li><a href="#img_10"><img src="https://www.garneczki.pl/blog/wp-content/uploads/2018/06/jak-ladnie-podawac-lody-1440x959.jpg"></a></li>
+                  <li><a href="#img_11"><img src="https://prymusagd.pl/blog/wp-content/uploads/2021/10/g44o.jpg"></a></li>
+                  <li><a href="#img_13"><img src="https://d-art.ppstatic.pl/kadry/k/r/78/93/569cc9cb4bcae_o_medium.jpg"></a></li>
+                  <li><a href="#img_14"><img src="https://munjodesign.pl/wp-content/uploads/2019/12/cocacola-butelka.jpg"></a></li>
+                  
+                  
+              </ul>
+              <a href="#_1" class="lightbox trans" id="img_1"><img src="https://gratka.pl/blog/wp-content/uploads/2019/09/iStock-1130595856-1.jpg"></a>
+              <a href="#_2" class="lightbox trans" id="img_2"><img src="https://ncez.pzh.gov.pl/wp-content/uploads/2021/01/kawa-serce_auto_600x600.jpg"></a>
+              <a href="#_3" class="lightbox trans" id="img_3"><img src="https://gorzow.news/wp-content/uploads/2022/05/2021-09-25-Fit-Cake-13-scaled-1.jpg"></a>
+              <a href="#_4" class="lightbox trans" id="img_4"><img src="https://milkdesigns.pl/assets/images/sztolnia-meta.jpg"></a>
+              <a href="#_5" class="lightbox trans" id="img_5"><img src="https://lente-magazyn.com/wp-content/uploads/2016/03/mae.jpg"></a>
+              <a href="#_6" class="lightbox trans" id="img_6"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8xjBBQKrVzFjn0khTYzyYi4oPxGdhy2GuDsxqtvT-EL5OysydJ9fDu0-yJo2PfzhgO39_d68TiesZ9pMk0T7ZRuS5uwd2gGxBrKkVtnLWUmZS8UEBP9UJ3cCLZcAQOZbYRnF6D-sjAhKdWjfNNav4iPEYDtydwnX8xnOEj2ynzitM6tfHLVQret8GQ/s1920/tyler-nix-ygb2igkldyg-unsplash.jpg"></a>
+              <a href="#_7" class="lightbox trans" id="img_7"><img src="https://polskapogodzinach.pl/wp-content/uploads/2017/09/xkrakow-gdzie-na-kawe-meho-cafe-1024x576.jpg.pagespeed.ic.7kGIa30S_A.jpg"></a>
+              <a href="#_9" class="lightbox trans" id="img_9"><img src="https://cafe22.pl/wp-content/uploads/2022/03/Cafe-22-kawiarnia-Szczecin-4.jpg"></a>
+              <a href="#_10" class="lightbox trans" id="img_10"><img src="https://www.garneczki.pl/blog/wp-content/uploads/2018/06/jak-ladnie-podawac-lody-1440x959.jpg"></a>
+              <a href="#_11" class="lightbox trans" id="img_11"><img src="https://prymusagd.pl/blog/wp-content/uploads/2021/10/g44o.jpg"></a>
+              <a href="#_13" class="lightbox trans" id="img_13"><img src="https://d-art.ppstatic.pl/kadry/k/r/78/93/569cc9cb4bcae_o_medium.jpg"></a>
+              <a href="#_14" class="lightbox trans" id="img_14"><img src="https://munjodesign.pl/wp-content/uploads/2019/12/cocacola-butelka.jpg"></a>
+            
+              
+          </div>
+      </div>
+
+
+
+   
+    
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

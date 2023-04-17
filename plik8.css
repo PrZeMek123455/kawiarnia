@@ -1,0 +1,163 @@
+body{
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png");
+}
+
+.all{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+#zadzwon{
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 20px;
+    background-image: url("https://www.websiterealizer.com/help/drex_how-to-add-gradient-background-to-a-text-element-using-css_custom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10PX 10PX 0px 10PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr{
+    background-color: blue;
+    width: 80%;
+    height: 2px;
+
+}
+
+h3{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+p{
+    font-size: 28px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.formularz{
+    margin-top: 50px;
+    justify-content: center;
+    height: 450px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mail{
+    width: 250px;
+    height: 180px;
+    background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80"); 
+    margin-left: 20px;
+    position: relative;
+    top: 35px;
+    border-radius: 5px;
+}
+
+#tresc{
+    width: 250px;
+    height: 180px;
+    background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80"); 
+    margin-left: 20px;
+    position: relative;
+    top: 35px;
+    border-radius: 5px;
+}
+
+#send{
+    width: 250px;
+    height: 180px;
+    background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80"); 
+    margin-left: 20px;
+    position: relative;
+    top: 35px;
+    border-radius: 5px;
+}
+
+input[type="email"]{
+    width: 230px;
+    height: 40px;
+    position: relative;
+    top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("https://cdn.wallpapersafari.com/10/67/aXhmCM.jpg");
+    background-size: cover;
+    color: azure;
+}
+
+textarea{
+    height: 90%;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    background-image: url("https://cdn.wallpapersafari.com/10/67/aXhmCM.jpg");
+    background-size: cover;
+    color: azure;
+    
+}
+    
+
+input[type="button"]{
+    width: 230px;
+    height: 40px;
+    position: relative;
+    top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: url("https://cdn.wallpapersafari.com/10/67/aXhmCM.jpg");
+    background-size: cover;
+    color: azure;
+}
+
+::placeholder{
+    padding: 5px;
+    color: azure;
+}
+
+#napisz{
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 20px;
+    background-image: url("https://www.websiterealizer.com/help/drex_how-to-add-gradient-background-to-a-text-element-using-css_custom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#przyjdz{
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 20px;
+    background-image: url("https://www.websiterealizer.com/help/drex_how-to-add-gradient-background-to-a-text-element-using-css_custom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

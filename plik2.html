@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated login form</title>
+    <link rel="stylesheet" href="plik2.css" >
+</head>
+<body>
+    <div class="gora">
+        <div class="pasek">
+            <div class="ikony">
+            <div class="ikonka_facebook"><a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></div></a>
+            <div class="ikonka_tweeter"><a href="https://twitter.com/?lang=pl" target="_blank"><ion-icon name="logo-twitter"></ion-icon></div></a>
+            <div class="ikonka_instagram"><a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></div></a> 
+        </div>
+            <div class="navigation">
+            <ul>
+                <li class="list">
+                    <a href="plik1.html">
+                        <span class="icon"><ion-icon name="Home"></ion-icon></span>
+                        <span class="text">Start</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list ">
+                    <a href="plik3.html">
+                        <span class="icon"><ion-icon name="cafe-outline"></ion-icon></span>
+                        <span class="text">Oferta</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list">
+                    <a href="plik7.html">
+                        <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                        <span class="text">Galeria</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list">
+                    <a href="plik6.html">
+                        <span class="icon"><ion-icon name="albums-outline"></ion-icon></span>
+                        <span class="text">CV</span>
+                    </a>
+                </li>
+            
+            
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                        <span class="text">Kontakt</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+            item.addEventListener('click',activeLink));
+        </script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+    <div class="box">
+        <div class="form">
+            <h2>Zaloguj się</h2>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span>Login</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span>Hasło</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Zapomniałem hasła</a>
+                <a href="plik4.html">Rejestracja</a>
+            </div>
+            <input type="submit" value="Logowanie">
+        </div>
+    </div>
+
+    <div class="all">
+        <div id="zadzwon">
+            <h2>Zadzwon</h2>
+            <hr>
+            <p>
+                Jeśli chcecie Państwo o coś zapytać, coś wyjaśnić, bądź coś z nami przedyskutować zapraszamy do kontaktu telefonicznego :)
+                <br><br><br>
+                <ion-icon name="call-outline"></ion-icon><a href="#">+48 123-456-789</a></p>
+        </div>
+
+        <div id="napisz">
+
+            <h2>Napisz</h2>
+            <hr>
+            <h3>O co chcesz zapytać?</h3>
+            <div class="formularz">
+                <div id="mail"><input type="email2" placeholder="Podaj email"></div>
+                <div id="tresc"><textarea placeholder="Podaj treść"></textarea></div>
+                <div id="send"><input type="button" value="wyslij wiadomosc"></div>
+            </div>
+        </div>
+
+        <div id="przyjdz">
+            <h2>Przyjdz</h2>
+            <hr>
+            <p>Zapraszamy do Naszej Kawiarni, gdzie możecie wyjątkowo spędzić swój czas delektując się kawą 
+                i pysznym ciastem oraz innymi pysznościami
+                <br><br><br>
+                <ion-icon name="location-outline"></ion-icon><a href="#">Ulica Parkowa 17 Kraków</a>
+        </div>
+
+    </div>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.460114270354!2d20.016059134269803!3d50.00273066157349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47164399a16cb28f%3A0xbd6a9006fbe2696!2sParkowa%2017%2C%2032-020%20Wieliczka!5e0!3m2!1spl!2spl!4v1681298235431!5m2!1spl!2spl" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
